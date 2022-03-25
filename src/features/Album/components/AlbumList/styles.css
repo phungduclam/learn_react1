@@ -1,0 +1,14 @@
+.album-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.album-list > li {
+  padding: 0;
+}
+/*# sourceMappingURL=styles.css.map */

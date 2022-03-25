@@ -1,15 +1,16 @@
-import logo from "./logo.svg";
-import "./App.css";
+// import "./App.css";
+import ColoerBox from "./components/ColorBox";
+import Counter from "./components/Counter";
+import AlbumFeature from "./features/Album/pages";
+import TodoFeature from "./features/Todo";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+      <TodoFeature />
+      {/* <AlbumFeature /> */}
+      {/* <ColoerBox />
+      <Counter /> */}
     </div>
   );
 }
